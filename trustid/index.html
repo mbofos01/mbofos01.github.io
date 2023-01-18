@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./Styles/mbofos_style.css">
+    <script src="./item.js"></script>
+    <script src="./keylist.js"></script>
+    <script src="./keylogger.js"></script>
+    <script src="./noise.js"></script>
+    <script src="./decoder.js"></script>
+
+</head>
+
+<body class="february-ink">
+    <div class="hero-image baby-blue">
+        <div class="hero-text">
+            <h1 class="name">Keylogging Study</h1>
+            <br>
+            <br>
+            <p>You are kindly requested to fill the following textboxes</p>
+            <p>Each filled textbox, when submitted will prompt you to save a file</p>
+            <p>Please do so and send us the created files</p>
+            <br>
+            <br>
+            <a id="but" href="mailto:bofos@cognitiveux.de" class="btn btn-secondary">Contact Us</a>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 align-self-center" style="height:70px">
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-7 align-self-center">
+                <div class="card">
+                    <div class="card-header">
+                        TextBox One
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                Please write two to four sentences about yourself.
+                                <br>
+                                <strong>For example:
+                                </strong> My name is Nick I am 22 year old. I currently work as a software developer. I
+                                am from Greece and
+                                in my free time I like to paint.
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="button" id="sub1" class="btn btn-primary  float-right">Save</button>
+                            <a id="down1" download="file_name" style="display:none;"></a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-7 align-self-center" style="height:70px">
+
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-xl-7 align-self-center">
+                <div class="card">
+                    <div class="card-header">
+                        TextBox Two
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                Please write two to four sentences about the weather these days.
+                                <br>
+                                <strong>For example:
+                                </strong> The last days weather has been a bit rainy and cold. The mean temperature in
+                                Nicosia must have been around 20 degrees celcium.
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+                            </div>
+                            <button type="button" id="sub2" class="btn btn-primary  float-right">Save</button>
+                            <a id="down2" download="file_name" style="display:none;"></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xl-7 align-self-center" style="height:70px">
+
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xl-7 align-self-center">
+            <div class="card">
+                <div class="card-header">
+                    TextBox Three
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            Please write two to four sentences about your country.
+                            <br>
+                            <strong>For example:
+                            </strong> I was born in Greece, Greece is a mediterranean country in southeastern Europe.
+                            The currency used in Greece is Euro and the phone code is +30.
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                        </div>
+                        <button type="button" id="sub3" class="btn btn-primary  float-right">Save</button>
+                        <a id="down3" download="file_name" style="display:none;"></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xl-7 align-self-center" style="height:70px">
+
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xl-7 align-self-center">
+            <div class="card">
+                <div class="card-header">
+                    TextBox Four
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            Please write two to four sentences about anything.
+                            <br>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                        </div>
+                        <button type="button" id="sub4" class="btn btn-primary float-right">Save</button>
+                        <a id="down4" download="four.json" style="display:none;"></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xl-7 align-self-center" style="height:140px">
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function uuidv4() {
+        return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
+            (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+        );
+    }
+    var save_one = document.getElementById('sub1');
+    var save_two = document.getElementById('sub2');
+    var save_three = document.getElementById('sub3');
+    var save_four = document.getElementById('sub4');
+
+    var area_one = document.getElementById('exampleFormControlTextarea1');
+    var area_two = document.getElementById('exampleFormControlTextarea2');
+    var area_three = document.getElementById('exampleFormControlTextarea3');
+    var area_four = document.getElementById('exampleFormControlTextarea4');
+
+    var log_one = new KeyLogger(area_one);
+    var log_two = new KeyLogger(area_two);
+    var log_three = new KeyLogger(area_three);
+    var log_four = new KeyLogger(area_four);
+
+    var down_one = document.getElementById("down1");
+    var down_two = document.getElementById("down2");
+    var down_three = document.getElementById("down3");
+    var down_four = document.getElementById("down4");
+
+    const name = uuidv4();
+    down_one.setAttribute('download', "1-" + name + ".json");
+    down_two.setAttribute('download', "2-" + name + ".json");
+    down_three.setAttribute('download', "3-" + name + ".json");
+    down_four.setAttribute('download', "4-" + name + ".json");
+
+    function one() {
+        console.log("1");
+        log_one.printList();
+        log_one.createBlob(down_one);
+        down_one.click();
+    }
+
+    function two() {
+        console.log("2");
+        log_two.printList();
+        log_two.createBlob(down_two);
+        down_two.click();
+    }
+
+    function three() {
+        console.log("3");
+        log_three.printList();
+        log_three.createBlob(down_three);
+        down_three.click();
+    }
+
+    function four() {
+        console.log("4");
+        log_four.printList();
+        log_four.createBlob(down_four);
+        down_four.click();
+    }
+
+    save_one.addEventListener('click', one);
+    save_two.addEventListener('click', two);
+    save_three.addEventListener('click', three);
+    save_four.addEventListener('click', four);
+</script>

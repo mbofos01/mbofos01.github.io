@@ -1,0 +1,189 @@
+@import url("variables.css");
+
+.petrol {
+    background: linear-gradient(var(--petrol-1), var(--petrol-2));
+}
+
+.sky {
+    background: linear-gradient(var(--sky-1), var(--sky-2));
+}
+
+.lady-lips-1 {
+    background: linear-gradient(var(--lady-lips-1-1), var(--lady-lips-1-2));
+}
+
+.river-city {
+    background: linear-gradient(var(--river-city-1), var(--river-city-2));
+}
+
+.blue-raspberry {
+    background: linear-gradient(var(--blue-raspberry-1), var(--blue-raspberry-2));
+}
+
+.pinot-noir {
+    background: linear-gradient(var(--pinot-noir-1), var(--pinot-noir-2));
+}
+
+.windy {
+    background: linear-gradient(var(--windy-1), var(--windy-2));
+}
+
+.forest-inel {
+    background: linear-gradient(var(--forest-inel-1), var(--forest-inel-2));
+}
+
+.socialive {
+    background: linear-gradient(var(--socialive-1), var(--socialive-2));
+}
+
+.anamnisar {
+    background: linear-gradient(var(--anamnisar-1), var(--anamnisar-2));
+}
+
+.vibrance {
+    background: linear-gradient(90deg, var(--vibrance-1), var(--vibrance-2));
+}
+
+.florish {
+    background: linear-gradient(90deg, var(--florish-1), var(--florish-2));
+}
+
+.wavey {
+    background: linear-gradient(90deg, var(--wavey-1), var(--wavey-2));
+}
+
+.bloom {
+    background: linear-gradient(90deg, var(--bloom-1), var(--bloom-2));
+}
+
+.mild-waters {
+    background: linear-gradient(90deg, var(--mild-waters-1), var(--mild-waters-2));
+}
+
+.oceanix {
+    background: linear-gradient(90deg, var(--oceanix-1), var(--oceanix-2));
+}
+
+.oceanix2 {
+    background: linear-gradient(90deg, var(--oceanix-2-1), var(--oceanix-2-2));
+}
+
+.bright-light {
+    background: linear-gradient(90deg, var(--bright-light-1), var(--bright-light-2));
+}
+
+.galaxy {
+    background: linear-gradient(90deg, var(--galaxy-1), var(--galaxy-2));
+}
+
+.sol {
+    background: linear-gradient(90deg, var(--sol-1), var(--sol-2));
+}
+
+.coffee {
+    background: linear-gradient(90deg, var(--coffee-1), var(--coffee-2));
+}
+
+.emerald {
+    background: linear-gradient(90deg, var(--emerald-1), var(--emerald-2));
+}
+
+.milkyway {
+    background: linear-gradient(90deg, var(--milkyway-1), var(--milkyway-2));
+}
+
+.almost {
+    background: linear-gradient(90deg, var(--almost-1), var(--almost-2));
+}
+
+.aqua-marine {
+    background: linear-gradient(90deg, var(--aqua-marine-1), var(--aqua-marine-2));
+}
+
+.gold-dust {
+    background: linear-gradient(90deg, var(--gold-dust-1), var(--gold-dust-2));
+}
+
+.lady-lips {
+    background: linear-gradient(90deg, var(--lady-lips-2-1), var(--lady-lips-2-2));
+}
+
+.night-fade {
+    background: linear-gradient(90deg, var(--night-fade-1), var(--night-fade-2));
+}
+
+.juicy-peach {
+    background: linear-gradient(90deg, var(--juicy-peach-1), var(--juicy-peach-2));
+}
+
+.frozen-dreams {
+    background: linear-gradient(90deg, var(--frozen-dreams-1), var(--frozen-dreams-2));
+}
+
+.winter-neva {
+    background: linear-gradient(90deg, var(--winter-neva-1), var(--winter-neva-2));
+}
+
+.february-ink {
+    background: linear-gradient(90deg, var(--february-ink-1), var(--february-ink-2));
+}
+
+.vega {
+    background: linear-gradient(90deg, var(--vega-1), var(--vega-2));
+}
+
+.enchantment {
+    background: linear-gradient(90deg, var(--enchantment-1), var(--enchantment-2));
+}
+
+.saint-petersburg {
+    background: linear-gradient(90deg, var(--saint-petersburg-1), var(--saint-petersburg-2));
+}
+
+.lemon-high {
+    background: linear-gradient(90deg, var(--lemon-high-1), var(--lemon-high-2));
+}
+
+.azure {
+    background: linear-gradient(90deg, var(--azure-1), var(--azure-2));
+}
+
+.racoon-black {
+    background: linear-gradient(90deg, var(--racoon-black-1), var(--racoon-black-2));
+}
+
+.mole-hall {
+    background: linear-gradient(90deg, var(--mole-hall-1), var(--mole-hall-2));
+}
+
+.confident-cloud {
+    background: linear-gradient(90deg, var(--confident-cloud-1), var(--confident-cloud-2));
+}
+
+.hodors-sentence {
+    background: linear-gradient(90deg, var(--hodors-sentence-1), var(--hodors-sentence-2));
+}
+
+.kennedys-speech {
+    background: linear-gradient(90deg, var(--kennedys-speech-1), var(--kennedys-speech-2));
+}
+
+.ceasars-career {
+    background: linear-gradient(90deg, var(--ceasars-career-1), var(--ceasars-career-2));
+}
+
+.soda {
+    background: linear-gradient(90deg, var(--soda-1), var(--soda-2));
+}
+
+.login-screen {
+    background: linear-gradient(90deg, var(--login-screen-1), var(--login-screen-2));
+}
+
+.merkels-folks {
+    background: linear-gradient(90deg, var(--merkels-folks-1), var(--merkels-folks-2));
+}
+
+.baby-blue {
+    background: linear-gradient(90deg, #3690ea 12.05%, #94b3ff 87.85%);
+}

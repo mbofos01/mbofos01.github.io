@@ -1,0 +1,111 @@
+@import url("imports/variables.css");
+@import url("imports/gradients.css");
+
+.white-text {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center {
+    align-content: center;
+}
+
+.rounded {
+    z-index: 5;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+}
+
+.cursor-ptr {
+    cursor: pointer;
+}
+
+.consolas {
+    font-family: Consolas, monaco, monospace;
+}
+
+.toast-success {
+    background-color: var(--apple-green) !important;
+}
+
+.toast-warning {
+    background-color: var(--apple-orange) !important;
+}
+
+.toast-error {
+    background-color: var(--apple-red) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+.hero-image {
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Consolas', sans-serif;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#but {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+
+}
+
+#but:hover {
+    background-color: #555;
+    color: white;
+}
+
+.logotypes {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotypes img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.link {
+    cursor: pointer;
+}

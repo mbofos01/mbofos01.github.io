@@ -5,7 +5,7 @@ date: 2026-02-12 15:00:00 +0000
 categories: ["Personal Projects", Wharfmap]
 tags: [vscode, extension, docker, compose, visualization]
 author: mbofos01
-image: assets/wharfmap_screenshot.png
+image: assets/images/wharfmap/wharfmap_screenshot.png
 ---
 
 As a developer working with complex Docker Compose setups, I often found myself struggling to visualize the relationships between services, dependencies, and networks in my projects. This personal frustration led me to create **Wharfmap**, a VS Code extension designed to make Docker Compose files more understandable and manageable.
@@ -53,7 +53,7 @@ Once installed, using Wharfmap is straightforward:
 
 <!-- Add screenshots here -->
 
-![Wharfmap Extension Screenshot](assets/docker-compose.svg)
+![Wharfmap Extension Screenshot](assets/images/wharfmap/docker-compose.svg)
 *Figure 1: Visualization of a Docker Compose file using Wharfmap*
 
 ## Conclusion

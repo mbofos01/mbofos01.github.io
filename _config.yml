@@ -16,7 +16,7 @@ timezone: Europe/Amsterdam
 
 title: Michail Panagiotis Bofos # the main title
 
-tagline: A slice of life, one bug at the time # it will display as the subtitle
+tagline: Code, life, and everything in between # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

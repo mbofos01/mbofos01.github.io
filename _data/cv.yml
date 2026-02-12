@@ -1,0 +1,143 @@
+header:
+  name: "Michail Panagiotis Bofos"
+  title: "Software Engineer | AI Researcher | MSc Artificial Intelligence Student"
+  location: "Utrecht, Netherlands"
+
+education:
+  - degree: "MSc in Artificial Intelligence"
+    institution: "Utrecht University"
+    period: "September 2023 – July 2025"
+    gpa: "7.84/10"
+    coursework: "Deep Learning & Pattern Recognition, Evolutionary Computing, Natural Language Processing, Human-Centered Machine Learning, Data Science for Society, AI-Driven Content Generation, Cognitive Modeling"
+  - degree: "BSc in Computer Science"
+    institution: "University of Cyprus"
+    period: "September 2018 – June 2022"
+    gpa: "8.38/10"
+    coursework: "Object-Oriented Programming, Computer Organization, Data Structures and Algorithms, Advanced Software Engineering, Systems Security, Human-Computer Interaction, Machine Learning, Web Technologies, Calculus I & II, Elements of Linear Algebra, Introduction to Probability & Statistics, Theory of Computation"
+
+experience:
+  - position: "Researcher"
+    company: "Networks Research Laboratory (NETRL)"
+    period: "March 2023 – July 2023 | Nicosia, Cyprus"
+    description:
+      - "Implemented user authentication using keystroke dynamics and Random Forests"
+      - "Presented developed platforms at internal meetings and EU multiplier events"
+  - position: "Software Engineer & Researcher"
+    company: "Cognitive UX GmbH"
+    period: "July 2022 – July 2023 | Heidelberg, Germany"
+    description:
+      - "Developed a Virtual Reality art exhibition editor using A-Frame"
+      - "Built responsive front-end interfaces with HTML5, CSS3, and JavaScript"
+      - "Implemented back-end services using Django and PostgreSQL"
+      - "Enabled server-client communication via AJAX"
+
+skills:
+  - category: "Programming Languages"
+    items: "Python, Java, C, C#, C++, Bash, JavaScript, TypeScript, SQL, CUDA, PHP"
+  - category: "Libraries/Frameworks"
+    items: "Django, Dash, Plotly, A-Frame, Keras, PyTorch, Optuna, Pandas, OpenCV, OpenSSL, React"
+  - category: "Technologies"
+    items: "Docker, Docker Compose, Linux, RabbitMQ, Apache Kafka, Git, Postman, PostgreSQL, Maven, Redis, Grafana, Nginx"
+  - category: "General Tools"
+    items: "MS Word, MS PowerPoint, MS Access, Kanban Flow, DBeaver, VS Code, Wireshark"
+  - category: "Spoken Languages"
+    items: "Greek (Native), English (Proficient), French (Basic), Dutch (Minimal knowledge)"
+
+projects:
+  - title: "Automated Detection of Positive/Non-Positive Shyness in Children from Videos"
+    type: "MSc Thesis Project"
+    url: "https://studenttheses.uu.nl/bitstream/handle/20.500.12932/49898/MasterThesis_MichailPanagiotisBofos.pdf"
+    description:
+      - "Classified positive/non-positive shyness in videos of 12 and 15-month-old children using advanced AI models"
+      - "Tools & Models: SAMURAI, VideoMAE, VideoMamba, VideoLLaVA, XGBoost, Optuna, OpenCV"
+  - title: "Natural Gas Demand Prediction System using Advanced Recursive Neural Networks"
+    type: "BSc Thesis Project"
+    url: ""
+    description:
+      - "Developed a system for hourly natural gas demand forecasting using meteorological data, implementing LSTM and GRU neural networks"
+      - "Tools: Python, Keras, Pandas, Matplotlib"
+  - title: "Graph Bi-Partitioning with Genetic Algorithms"
+    type: "Personal Project"
+    url: "https://github.com/mbofos01/genetic-algorithm-graph-partitioning"
+    description:
+      - "Solved the graph bi-partitioning problem using MultiStart, Iterated, and Genetic Local Search strategies combined with Fiduccia-Mattheyses heuristic"
+      - "Tools: C#"
+  - title: "Agriculture Dashboard Netherlands"
+    type: "Personal Project"
+    url: "https://github.com/mbofos01/agriculture-dashboard-netherlands"
+    description:
+      - "Interactive web dashboard visualizing Dutch agricultural trends by integrating CBS and FAOSTAT datasets with dynamic choropleth maps and time-series plots"
+      - "Deployed with Docker Compose and RabbitMQ"
+      - "Tools: Dash, Python, Pandas, Plotly, Docker, PostgreSQL"
+  - title: "Pokédex — Mobile Pokémon Recognition App"
+    type: "Personal Project"
+    url: "https://github.com/mbofos01/pokedex"
+    description:
+      - "Computer vision system identifying Pokémon from camera photos using HuggingFace model"
+      - "Full backend with FastAPI, Kafka, Redis, PostgreSQL"
+      - "DevOps stack with Docker, nginx, monitoring via Prometheus/Grafana"
+      - "Mobile app with React Native"
+  - title: "Brain Activity Analysis"
+    type: "Personal Project"
+    url: "https://github.com/pdallas/brain-activity-analysis"
+    description:
+      - "Pipeline for preprocessing, normalizing, and classifying multi-channel MEG time-series brain signals with CNN, LSTM, RNN models"
+      - "Tools: Keras, NumPy, Pandas"
+  - title: "Spotify Broadcast Website"
+    type: "Personal Project"
+    url: "https://spotify-broadcast-frontend.vercel.app/"
+    description:
+      - "Platform displaying real-time Spotify listening activity via Spotify API with OAuth 2.0"
+      - "Deployed on Vercel"
+      - "Tools: FastAPI, React, Redis"
+  - title: "TMDb Spark Recommendation Extension — Movie Recommendation System"
+    type: "Personal Project"
+    url: "https://github.com/mbofos01/tmdb-spark-recommendation-extension"
+    description:
+      - "Collaborative filtering movie recommender using Spark ALS and the MovieLens dataset, enriched with TMDb metadata"
+      - "Full backend pipeline: FastAPI API, Redis caching, Spark job orchestration, and TMDb API integration"
+      - "DevOps stack: Multi-container Docker Compose setup with Spark master/worker, backend, Redis, and job-runner services on a custom network"
+      - "Chrome extension frontend for user authentication and personalized recommendations based on TMDb ratings"
+
+certifications:
+  - title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate"
+    issuer: "Oracle"
+    url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B1CA91E209533D9728FEAE7857C137929960E40EEE9BE1D84497ED8E938FE55A"
+  - title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate"
+    issuer: "Oracle"
+    url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=49EB260EF9EAFC9B605AFABBFD223000A9D62BD8CBA73F4674A8469EB8583758"
+  - title: "Hands-on Introduction to Linux Commands and Shell Scripting"
+    issuer: "IBM"
+    url: "https://www.coursera.org/account/accomplishments/verify/AWP4ZBHPKUW5"  # Placeholder
+  - title: "Crash Course on Python"
+    issuer: "Google"
+    url: "https://www.coursera.org/account/accomplishments/certificate/FFVTC8EYBFRX"  # Placeholder
+  - title: "Foundations of User Experience (UX) Design"
+    issuer: "Google"
+    url: "https://www.coursera.org/account/accomplishments/verify/FG23XFJM7J4G"  # Placeholder
+  - title: "Introduction to Generative AI"
+    issuer: "Google Cloud Skills Boost"
+    url: "https://www.cloudskillsboost.google/public_profiles/04d5311d-0171-4c2a-8243-6e4f729b68c5/badges/4466337"  # Placeholder
+  - title: "SQL (Basic)"
+    issuer: "HackerRank"
+    url: "https://www.hackerrank.com/certificates/53840FAA44BD"  # Placeholder
+  - title: "Rest API (Intermediate)"
+    issuer: "HackerRank"
+    url: "https://www.hackerrank.com/certificates/ADB20627D728"  # Placeholder
+
+favorite_reads:
+  - title: "Love's Executioner and Other Tales of Psychotherapy"
+    author: "Irvin D. Yalom, MD"
+    url: "https://www.goodreads.com/book/show/21027.Love_s_Executioner_and_Other_Tales_of_Psychotherapy"
+  - title: "Lying on the Couch"
+    author: "Irvin D. Yalom, MD"
+    url: "https://www.goodreads.com/book/show/21030.Lying_on_the_Couch"
+  - title: "Steve Jobs"
+    author: "Walter Isaacson"
+    url: "https://www.goodreads.com/book/show/11084145-steve-jobs"
+  - title: "Shoe Dog"
+    author: "Phil Knight"
+    url: "https://www.goodreads.com/book/show/27220736-shoe-dog"
+  - title: "No Place to Hide"
+    author: "Glenn Greenwald"
+    url: "https://www.goodreads.com/book/show/18213403-no-place-to-hide"

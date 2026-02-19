@@ -1,37 +1,62 @@
-# Chirpy Starter
+# Michail Panagiotis Bofos' Personal Website
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+This is my personal website built with Jekyll and the [Chirpy theme][chirpy]. It showcases my projects, blog posts, and resume.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Local Development
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+To run the site locally for development and testing:
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+1. **Prerequisites**: Ensure you have Ruby and Bundler installed. On Windows, install Ruby via [RubyInstaller](https://rubyinstaller.org/).
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+2. **Install Dependencies**:
 
-## Usage
+   ```bash
+   bundle install
+   ```
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+3. **Run the Development Server**:
+
+   ```bash
+   bundle exec jekyll s -l
+   ```
+
+    This starts the Jekyll server with live reload at `http://localhost:4000`.
+
+4. Open your browser and navigate to `http://localhost:4000` to view the site.
+
+## Adding a New Post
+
+To add a new blog post:
+
+1. Create a new Markdown file in the `_posts/` directory with the naming convention: `YYYY-MM-DD-title.md` (e.g., `2026-02-20-new-post.md`).
+
+2. Add the following front matter at the top of the file:
+
+   ```yaml
+   ---
+   layout: post
+   title: "Your Post Title"
+   date: YYYY-MM-DD HH:MM:SS +0000
+   categories: [Category1, Category2]
+   tags: [tag1, tag2]
+   author: mbofos01
+   ---
+   ```
+
+3. Write your post content below the front matter using Markdown.
+
+4. Save the file. The site will automatically rebuild if the server is running with live reload.
+
+## Deployment
+
+This site is hosted on GitHub Pages. Commits to the `main` branch automatically trigger a build and deployment.
 
 ## Contributing
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+This site uses the [Chirpy theme][chirpy]. For theme-related issues or contributions, please visit the [theme repository][chirpy].
 
 ## License
 
@@ -39,5 +64,4 @@ This work is published under [MIT][mit] License.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE

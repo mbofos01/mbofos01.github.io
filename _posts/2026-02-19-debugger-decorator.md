@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debugger Decorator: A Simple Python Debugging Tool"
-date: 2026-02-19 03:00:00 +0000
+date: 2026-02-19 13:00:00 +0000
 categories: ["Personal Projects"]
 tags: [python, debugging, decorators]
 author: mbofos01
